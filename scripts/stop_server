@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+docker stop final-python-app
+docker rm final-python-app
+docker rmi final-python
