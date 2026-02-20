@@ -2,7 +2,7 @@
 set -e
 
 # Build Docker image from Dockerfile
-docker build -t final-python.
+docker build -t final-python .
 
 # Run container on port 80:80
 docker run -d --name final-python-app -p 80:5000 final-python
