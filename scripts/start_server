@@ -5,4 +5,4 @@ set -e
 docker pull amirmn1610/final-python:latest
 
 # Run container on port 80:5000
-docker run -d --name final-python-app -p 80:5000 final-python
+docker run -d --name final-python-app -p 80:5000 amirmn1610/final-python:latest
