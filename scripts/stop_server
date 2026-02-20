@@ -3,4 +3,4 @@ set -e
 
 docker stop final-python-app
 docker rm final-python-app
-docker rmi final-python
+docker rmi amirmn1610/final-python
